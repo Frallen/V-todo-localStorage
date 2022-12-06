@@ -182,6 +182,8 @@ export default {
               .id
         ),
       ];
+      this.updatedId = null;
+      this.formStatus = 0;
     },
     EditToDo(item) {
       this.formStatus = 1;
